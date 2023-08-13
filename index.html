@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TA-Tangible Assets</title>
+    <link rel="icon" href="Screenshot 2023-08-13 125634.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@3.0.0/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <span></span>
+        <a class="link" href="https://www.rwa.xyz/blog/tokenized-treasuries-report" onclick="latest()"></a>
+    </nav>
+    <header>
+        <div class="header1">
+            <div class="logo">
+                <a href="#"><img src="" alt="" class="logo-img" onclick="home()"></a>
+                <div class="list">
+                    <a id="dashboard" onclick="dashboard()"></a>
+                    <a id="Blog" onclick="blog()"></a>
+                    <a id="data" onclick="data_and_dev()"></a>
+                    <a id="career" onclick="career()"></a>
+                </div>
+            </div>
+            <div class="login">
+                <a href="#" onclick="login()"></a>
+                <button class="bread" onclick="dashboard()">
+                    <span id="Launch_Dashboard"></span>
+                </button>
+            </div>
+        </div>
+        <div class="header2">
+            <div class="header2box">
+                <h1 id="h1-1"></h1>
+                <h1 id="h1-2"></h1>
+            </div>
+            <div class="header2box">
+                <div class="header2box-in">
+                    <p class="paragraph">
+                    </p>
+                </div>
+                <div class="header2box-in">
+                    <button onclick="dashboard()">
+                        <span ></span>
+                        <i class="fa-solid fa-arrow-right" id="icon1"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <img src="" alt="" class="header-img">
+    </header>
+    <main>
+        <div class="main-div-1">
+            <div class="main-div-1-in">
+                <div class="main-div-1-in-1">
+                    <h2></h2>
+                </div>
+                <div class="main-div-1-in-2">
+                    <div class="content">
+                        <div class="icon">
+                            <i class="fa-solid fa-arrow-right fa-xl"></i>
+                        </div>
+                        <div class="para" id="para1">
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <i class="fa-solid fa-arrow-right fa-xl"></i>
+                        </div>
+                        <div class="para" id="para2">
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="icon">
+                            <i class="fa-solid fa-arrow-right fa-xl"></i>
+                        </div>
+                        <div class="para" id="para3">
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-div-1-in-3">
+                    <button onclick="dashboard()">
+                            <span class="button-span"></span>
+                            <i class="fa-solid fa-arrow-right" id="view-dashboard"></i>
+                        </button>
+                </div>
+            </div>
+            <div class="main-div-1-in">
+                <img src="" alt="" id="main-div-1-in-img">
+            </div>
+        </div>
+        <div class="main-div-2">
+            <div class="main-div-2-h2">
+                <h2></h2>
+            </div>
+            <div class="main-div-2-1">
+                <a class="main-div-2-1-in" onclick="directory()">
+                    <div class="main-div-2-1-in-box-in">
+                        <div class="image" id="main-div-2-1-in-box-in-image-1">
+                            <div class="image-in-1">
+                                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M22.5 9.07499V12.093C16.581 12.831 12 17.88 12 24C12 30.627 17.373 36 24 36C26.7735 36 29.325 35.0595 31.359 33.48L33.4935 35.6145C30.9075 37.7295 27.6 39 24 39C15.7155 39 9 32.2845 9 24C9 16.2225 14.9205 9.82649 22.5 9.07499ZM38.925 25.5C38.625 28.5165 37.434 31.2705 35.6145 33.492L33.48 31.359C34.77 29.6985 35.634 27.6915 35.907 25.5H38.9265H38.925ZM25.503 9.07499C32.589 9.77849 38.223 15.414 38.928 22.5H35.9085C35.232 17.073 30.93 12.771 25.503 12.093V9.07349V9.07499Z" fill="currentColor"></path>
+                                    </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-div-2-1-in-box-in">
+                        <div class="heading">
+                            <h3 id="main-div-2-1-in-box-in-heading-1"></h3>
+                            <button class="arrow-up-right" onclick="directory()">
+                                <img src="Screenshot_2023-08-12_204923-removebg-preview.png" alt="">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="main-div-2-1-in-box-in">
+                        <div class="description" id="main-div-2-1-in-box-in-desc-1">
+                            <p></p>
+                        </div>
+                    </div>
+                </a>
+                <a class="main-div-2-1-in" onclick="data_and_dev()">
+                    <div class="main-div-2-1-in-box-in">
+                        <div class="image" id="main-div-2-1-in-box-in-image-2">
+                            <div class="image-in-2">
+                                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M25.4996 10.5V21.4005L34.9406 15.951L36.4406 18.549L27.0011 23.9985L36.4406 29.451L34.9406 32.049L25.4996 26.598V37.5H22.4996V26.598L13.0586 32.049L11.5586 29.451L20.9981 24L11.5586 18.549L13.0586 15.951L22.4996 21.4005V10.5H25.4996Z" fill="currentColor"></path>
+                                    </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-div-2-1-in-box-in">
+                        <div class="heading">
+                            <h3 id="main-div-2-1-in-box-in-heading-2"></h3>
+                            <button class="arrow-up-right" onclick="data_and_dev()">
+                                <img src="Screenshot_2023-08-12_204923-removebg-preview.png" alt="">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="main-div-2-1-in-box-in">
+                        <div class="description" id="main-div-2-1-in-box-in-desc-2">
+                            <p></p>
+                        </div>
+                    </div>
+                </a>
+                <a class="main-div-2-1-in" onclick="API()">
+                    <div class="main-div-2-1-in-box-in">
+                        <div class="image" id="main-div-2-1-in-box-in-image-3">
+                            <div class="image-in-3">
+                                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M24 39C15.7155 39 9 32.2845 9 24C9 15.7155 15.7155 9 24 9C32.2845 9 39 15.7155 39 24C39 32.2845 32.2845 39 24 39ZM24 36C27.1826 36 30.2348 34.7357 32.4853 32.4853C34.7357 30.2348 36 27.1826 36 24C36 20.8174 34.7357 17.7652 32.4853 15.5147C30.2348 13.2643 27.1826 12 24 12C20.8174 12 17.7652 13.2643 15.5147 15.5147C13.2643 17.7652 12 20.8174 12 24C12 27.1826 13.2643 30.2348 15.5147 32.4853C17.7652 34.7357 20.8174 36 24 36V36ZM16.5 24H19.5C19.5 25.1935 19.9741 26.3381 20.818 27.182C21.6619 28.0259 22.8065 28.5 24 28.5C25.1935 28.5 26.3381 28.0259 27.182 27.182C28.0259 26.3381 28.5 25.1935 28.5 24H31.5C31.5 25.9891 30.7098 27.8968 29.3033 29.3033C27.8968 30.7098 25.9891 31.5 24 31.5C22.0109 31.5 20.1032 30.7098 18.6967 29.3033C17.2902 27.8968 16.5 25.9891 16.5 24V24Z" fill="currentColor"></path>
+                                    </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-div-2-1-in-box-in">
+                        <div class="heading">
+                            <h3 id="main-div-2-1-in-box-in-heading-3"></h3>
+                            <button class="arrow-up-right" onclick="API()"><img src="Screenshot_2023-08-12_204923-removebg-preview.png" alt=""></button>
+                        </div>
+                    </div>
+                    <div class="main-div-2-1-in-box-in">
+                        <div class="description" id="main-div-2-1-in-box-in-desc-3">
+                            <p></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="main-div-3">
+            <div class="main-div-3-in-1">
+                <div class="main-div-3-in-1-box-circle">
+                    <div class="Circle-main-box">
+                        <div class="Circle-main-box-in">
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                        </div>
+                        <div class="Circle-main-box-in">
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                        </div>
+                        <div class="Circle-main-box-in">
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-div-3-in-1-box">
+                    <h2></h2>
+                </div>
+            </div>
+            <div class="main-div-3-in-2">
+                <form action="" class="main-div-3-in-2-form">
+                    <div class="main-div-3-in-2-box">
+                        <label for="Email" id="email"></label>
+                        <input type="email" required>
+                    </div>
+                    <div class="main-div-3-in-2-box">
+                        <p id="main-div-3-in-2-box-p"></p>
+                    </div>
+                    <div class="main-div-3-in-2-box">
+                        <div class="captcha">
+                            <div class="captcha-content">
+                                <p id="captcha-content-p"></p>
+                                <div class="privacy-terms">
+                                    <a onclick="privacy()" id="privacy"></a>
+                                    <a onclick="terms()" id="terms"></a>
+                                </div>
+                            </div>
+                            <div class="captcha-load"></div>
+                        </div>
+                    </div>
+                    <div class="main-div-3-in-2-box">
+                        <button id="main-div-3-in-2-box-button" onclick="dashboard()"></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-in-1">
+            <div class="footer-in-1-box-1">
+                <div class="footer-box-1-in">
+                    <div class="footer-in-1-box-in">
+                        <div class="footer-in-1-box-in-div">
+                            <a class="footer-in-1-box-in-div-a"><img src="" alt="" id="footer-in-1-box-in-div-a-img" onclick="home()"></a>
+                        </div>
+                    </div>
+                    <div class="footer-in-1-box-in">
+                        <p id="footer-in-1-box-in-p"></p>
+                    </div>
+                    <div class="footer-in-1-box-in">
+                        <button onclick="twitter()">
+                            <i class="fa-brands fa-twitter" style="color: #000000;" id="footer-in-1-box-in-social-media"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-in-1-box-2">
+                <div class="footer-list-box">
+                    <ul>
+                        <li id="Resources"></li>
+                        <li id="Dashboard">
+                            <a onclick="dashboard()"></a>
+                        </li>
+                        <li id="Research-Blog">
+                            <a onclick="blog()"></a>
+                        </li>
+                        <li id="API">
+                            <a onclick="API()"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-in-1-box-2">
+                <div class="footer-list-box">
+                    <ul>
+                        <li id="Company"></li>
+                        <li id="Careers">
+                            <a onclick="career()"></a>
+                        </li>
+                        <li id="Twitter">
+                            <a onclick="twitter()"></a>
+                        </li>
+                        <li id="Contact">
+                            <a onclick="contact()"></a>
+                        </li>
+                        <li id="Terms-of-use">
+                            <a onclick="terms()"></a>
+                        </li>
+                        <li id="Privacy-Policy">
+                            <a></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-in-1-box-2">
+                <div class="footer-list-box">
+                    <ul>
+                        <li id="list3-Dashboard"></li>
+                        <li id="Login">
+                            <a onclick="login()"></a>
+                        </li>
+                        <li id="Register">
+                            <a onclick="register()"></a>
+                        </li>
+                        <li id="Data-Downloads">
+                            <a onclick="data_and_dev()"></a>
+                        </li>
+                        <li id="Directory">
+                            <a onclick="directory()"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-in-2">
+            <span></span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@3.0.0/dist/aos.js"></script>
+    <script src="js_json.js"></script>
+    <script src="js.js"></script>
+</body>
+
+</html>

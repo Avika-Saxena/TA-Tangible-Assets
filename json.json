@@ -1,0 +1,107 @@
+{
+    "nav": {
+        "span": "Read our latest :",
+        "a": "TA Tangible Assets Tokenized Treasuries Research Report 2023 🏦"
+    },
+    "header1": {
+        "image": { "src": "Screenshot_2023-08-11_180433-removebg-preview.png" },
+        "logo": "logo",
+        "bread": "button",
+        "list": {
+            "a1": "Dashboard",
+            "a2": "Blog",
+            "a3": "Data & Developers",
+            "a4": "career"
+        },
+        "login": {
+            "a": "Login",
+            "span": "Launch-Dashboard"
+        }
+    },
+    "header2box": {
+        "h1": {
+            "h1-1": "Analytics on",
+            "h1-2": "Tangible Assets"
+        },
+        "p": "Institutions, asset managers, and researchers, use the TA Tangible Assets Platform to analyze tokenized assets.",
+        "button": "View the Dashboard",
+        "image": {
+            "src": "6483470c8ce2fef96032f0d4_sara-cottle-Pv_aciNC6lo-unsplash-p-1600.jpeg"
+        }
+    },
+    "main": {
+        "main-div-1": {
+            "main-div-1-in-1": "Easily understand the tokenization of different asset classes",
+            "main-div-1-in-2": {
+                "para1": "View global issuance, volumes, and rates",
+                "para2": "Analyze protocol metrics, defaults, and new deals",
+                "para3": "Drill down into individual loans"
+            },
+            "main-div-1-in-3": "View Dashboard",
+            "image": {
+                "src": "6470c67dbb66a109d9a2e8b3_Screenshot20at20PM-p-1600.png"
+            }
+        },
+        "main-div-2": {
+            "main-div-2-h2": "Platform Features",
+            "main-div-2-in": {
+                "box1": {
+                    "heading": "Company Director",
+                    "desc": "Discover and contact Tangible Asset companies and issuers"
+                },
+                "box2": {
+                    "heading": "Excel and Data Downloads",
+                    "desc": "Pull data directly into familiar and convinient workflows"
+                },
+                "box3": {
+                    "heading": "Developer API",
+                    "desc": "Integrate asset data for analysis or to build new financial products"
+                }
+            }
+        },
+        "main-div-3": {
+            "main-div-3-in-1-box": "Your all-in-one resource for understanding tangible assets",
+            "main-div-3-in-2-box": "Email",
+            "main-div-3-in-2-box-p": "By clicking submit, you consent to allow TA-Tangible Assets to store your information to contact you about our products and services. You may unsubscribe from these communications at any time.",
+            "captcha": {
+                "captcha-content-p": "protected by reCAPTCHA",
+                "captcha-content-privacy": "Privacy",
+                "captcha-content-terms": "Terms"
+            },
+            "button": "Go to Dashboard"
+        }
+    },
+    "footer": {
+        "footer-in-1": {
+            "logo": {
+                "src": "Screenshot_2023-08-11_180433-removebg-preview.png"
+            },
+            "p": "TA Tangible Assets is the leading analytics company for tokenized real-world assets. View protocol statistics, industry aggregate metrics, and the issuers all in one place."
+
+        },
+        "footer-list-box": {
+            "list1": {
+                "l1": "Resources",
+                "l2": "Dashboard",
+                "l3": "Research Blog",
+                "l4": "API"
+            },
+            "list2": {
+                "l1": "Company",
+                "l2": "Careers",
+                "l3": "Twitter",
+                "l4": "Contact",
+                "l5": "Terms of use",
+                "l6": "Privacy Policy"
+            },
+            "list3": {
+                "l1": "Dashboard",
+                "l2": "Login",
+                "l3": "Register",
+                "l4": "Data Downloads",
+                "l5": "Directory"
+            }
+        },
+        "footer-in-2": "Copyright © Castle Labs, Inc."
+    }
+}
